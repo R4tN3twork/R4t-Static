@@ -1,6 +1,5 @@
-# Womginx
-
-> Fastest proxy using only nginx as the backend server
+# R4t
+### A proxy site
 
 <a href="https://repl.it/github/binary-person/womginx"><img src="https://docs.replit.com/images/repls/run-on-replit.svg" alt="Replit" width="150"/></a>
 
@@ -125,5 +124,5 @@ Wombat uses AGPL, and under the terms of that license, this project, therefore, 
 
 ## Credits
 
-- Front page design by [voept](https://github.com/voept)
-- Logo design by [kinglalu](https://github.com/kinglalu)
+- [Binary-person](https://github.com/binary-person)
+  Created womginx
