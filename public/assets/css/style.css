@@ -1,1 +1,134 @@
-
+body {
+  background-color: #303030;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  /*margin: 50px;
+  border: 50px;
+  height: 100px;*/
+}
+#logo {
+  position: relative;
+  /*left: 40%*/
+}
+#logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+p {
+  font-family: poppins;
+  font-size: 20px;
+}
+input[type="url"] {
+  font-family: poppins;
+  font-size: 20px;
+  background-color: #404040;
+  width: 40%;
+  transition: 0.45s;
+  border-radius: 7px;
+  border: 2px solid rgb(35, 35, 35);
+  padding: 20px;
+  margin: 30px;
+}
+input[type="url"]:focus {
+  border: 2px solid black;
+  transition: width 0.4s ease-in-out;
+}
+input[type="text"] {
+  font-family: poppins;
+  font-size: 20px;
+  background-color: #404040;
+  width: 13%;
+  color: black;
+  transition: 0.45s;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 15px;
+}
+button {
+  background-color: #4a4a4a;
+  color: #a7a7a7;
+  border: none;
+  border-color: black;
+  display: inline-block;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  margin: 15px;
+}
+.menuButton {
+  background-color: #464646;
+  color: #9a9a9a;
+  border: none;
+  border-color: black;
+  display: inline-block;
+  font-size: 14px;
+  padding: 30px;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  margin: 25px;
+}
+a {
+  color: #3d3d3d;
+}
+button:hover {
+  background-color: #404040;
+}
+#menuicon {
+  height: 90px;
+  width: 120px;
+}
+#home {
+  background-image: url("/assets/img/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+}
+#proxies {
+  background-image: url("/assets/img/proxies.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
+}
+#games {
+  background-image: url("/assets/img/games.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#settings {
+  background-image: url("/assets/img/settings.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#about {
+  background-image: url("/assets/img/about.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px;
+}
+#gameframe {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+}
+#menu {
+  text-align: center;
+  background-color: #3d3d3d;
+  width: 99%;
+  height: 130px;
+  border-radius: 10px;
+}
