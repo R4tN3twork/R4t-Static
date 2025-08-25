@@ -1,3 +1,3 @@
-[submodule "public/womginx/wombat"]
-	path = public/womginx/wombat
+[submodule "public/wombat"]
+	path = public/wombat
 	url = https://github.com/webrecorder/wombat
