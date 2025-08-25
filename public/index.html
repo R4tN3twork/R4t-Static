@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="shortcut icon" type="image/png" href="logo.png" />
-    <title>NGINX Proxy</title>
-</head>
-
-<body>
-    <div class="container">
-        <img src="logo-full.png" width="250" height="250">
-        <div>
-            <script>
-                function go() {
-                    var input = document.getElementById('url-target');
-                    if (input.value) {
-                        window.location.href = '/main/' + input.value;
-                    } else {
-                        alert('Please provide a link. It does not require https://.');
-                    }
-                }
-            </script>
-            <span class="w3-xlarge">Input your URL here: </span>
-            <div>
-                <input class="w3-xlarge" type='text' placeholder='https://www.google.com' id='url-target'
-                    onkeydown='if(event.key==="Enter") go()' />
-                <button onclick='go()' class="w3-xlarge">Go!</button>
-            </div>
-            <br>
-            <br>
-            </p>
-            <p class="w3-medium">View GitHub source <a class="w3-medium" href="https://github.com/binary-person/womginx" target="_blank">here</a></p>
-        </div>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="home.css" />
+    <!--CCM Mathematics description-->
+    <meta name="title" content="CCM Mathematics" />
+  <meta name="description"
+    content="Enhancing mathematical skills with comprehensive courses and resources for problem-solving and analytical thinking." />
+    <!--<link id="icon" rel="icon"></link>
+    <title>R4t</title>-->
+  </head>
+  <body id="body" onload="onload()">
+    <script src="script.js"></script>
+    <!--<script src="assets/js/app.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <div id="particles-js"></div>-->
+    <div>
+      <div id="menu">
+        <button class="menuButton" onclick="newPage('prxies.html')" id="proxies">Proxies</button>
+        <button class="menuButton" onclick="newPage('games.html')" id="games">Games</button>
+        <button class="menuButton" onclick="newPage('settings.html')" id="settings">Settings</button>
+        <button class="menuButton" onclick="newPage('about.html')" id="about">About</button>
+      </div>
+      <div id="logo-wrapper">
+      <img id="logo"
+      src="/assets/img/r4t.png"></img>
+      </div>
+      <input
+        type="url"
+        id="requested-url"
+        tag="searchbar"
+        placeholder="Search the web without restrictions"
+      />
+      <button
+        id="searchbutton"
+        onclick="loadURL(document.getElementById('requested-url').value)"
+      >
+        Go
+      </button>
+      <!--<div id="gameframe"></div>
     </div>
-</body>
-
+    <button id="" onclick="fullScreen()">
+      Fullscreen
+    </button>-->
+  </body>
 </html>
