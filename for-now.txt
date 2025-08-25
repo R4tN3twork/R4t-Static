@@ -1,0 +1,1 @@
+onclick="()=>{var whySoManyAltsKrupal = window.prompt('Krupal has like 3 accounts so which one do you want to view?(type 1, 2, or 3)');if(whySoManyAltsKrupal=='1') {window.location.href='https://github.com/mathactivities';}else if(whySoManyAltsKrupal=='2'){window.location.href='https://github.com/lolfactor39'}else{window.location.href='https://github.com/reading-labs'}}"
