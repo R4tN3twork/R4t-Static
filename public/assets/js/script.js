@@ -23,7 +23,7 @@ function changeFavicon(newIconPath) {
 // Example usage:
 // To change the favicon to 'new-icon.png'
 changeFavicon(cloakImages[0]); //sets the cloak image to the r4t logo
-document.title = "R4t";
+document.title = "R4t | Beta";
 //not ai
 function cloak(id) {
   if (id == cloakImages[0]) {
