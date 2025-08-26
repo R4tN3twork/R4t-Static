@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="/assets/js/script.js"></script>
+  </head>
+  <body onload="onload()">
+  <div id="menu">
+    <a href="/index.html">
+    <button class="menuButton" id="home" onclick="newPage('index.html')">Home</button>
+    </a>
+    <a href="/prxies.html">
+    <button class="menuButton" id="proxies" onclick="newpage('prxies.html')">Proxies</button>
+    </a>
+    <a href="/games.html">
+    <button class="menuButton" id="games" onclick="newpage('games.html')">Games</button>
+    </a>
+    <a href="/about.html">
+    <button class="menuButton" id="about" onclick="newpage('about.html')">About</button>
+    </a>
+  </div>
+  <h4>Found a bug? Report it <a id="textLink" href="https://docs.google.com/forms/d/e/1FAIpQLSfPhstKXQNnrBxlEn_6QOtFcwvY5gFbsxJJgNKgQwnveVIt3w/viewform?usp=dialog">here</a></h4>
+  <p>Opens a new tab of the site that hides the site from link stealing(from other people in school), browsing history, and most monitoring applications</p> 
+  <button onclick="aboutBlank(window.location.href, true)">Open about:blank cloak</button>
+  <p>Cloaks</p>
+  <div id="cloaks">
+  <button onclick="cloak(cloakImages[0])">None</button>
+  <button onclick="cloak(cloakImages[1])">Google Drive</button>
+  <button onclick="cloak(cloakImages[2])">Google Classroom</button>
+  <button onclick="cloak(cloakImages[3])">Google Docs</button>
+  <button onclick="cloak(cloakImages[4])">Khan Academy</button>
+  <button onclick="cloak(cloakImages[5])">Canvas</button>
+  </div>
+  <p>Panic key(redirects to an education site when pressed)</p>
+  <input id="panicKey" type="text" placeholder="`"></input><button onclick="changePanicKey()">Enter</button>
+  <p>Panic key link</p>
+  <input id="panicKeyLink" type="text" placeholder="https://classroom.google.com"></input><button onclick="changePanicKeyLink()">Enter</button>
+  <p id="warning">Reset all settings</p>
+  <button onclick="clearLocalStorage()">Reset settings</button>
+  </body>
+</html>
