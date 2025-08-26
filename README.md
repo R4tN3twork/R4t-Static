@@ -106,5 +106,5 @@ Wombat uses AGPL, and under the terms of that license, this project, therefore, 
 
 - [Binary-person](https://github.com/binary-person)-
   Created womginx
-- [Binary-person](https://github.com/jonasrhee1208wastaken)-
+- [Jonas](https://github.com/jonasrhee1208wastaken)-
   Created an about:blank cloak
