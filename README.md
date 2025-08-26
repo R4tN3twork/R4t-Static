@@ -49,9 +49,8 @@ Ok maybe not just that, you'll need the following:
 
 ## License
 
-This project is licensed under the AGPL license.
-
-Wombat uses AGPL, and under the terms of that license, this project, therefore, is also required to be licensed under AGPL.
+Don't listen to the license on this repository
+The License is AGPL because wombat uses AGPL, and this repository contains womginx, which uses wombat.
 
 ## Credits
 
@@ -59,3 +58,5 @@ Wombat uses AGPL, and under the terms of that license, this project, therefore, 
   Created womginx
 - [Jonas](https://github.com/jonasrhee1208wastaken)-
   Created an about:blank cloak
+- [Krupal](https://github.com/lolfactor39)-
+  I used the game files from his game site
