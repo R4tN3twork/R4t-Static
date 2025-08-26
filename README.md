@@ -49,7 +49,7 @@ Ok maybe not just that, you'll need the following:
 
 ## License
 
-Don't listen to the license on this repository
+Don't listen to the license on this repository.
 The License is AGPL because wombat uses AGPL, and this repository contains womginx, which uses wombat.
 
 ## Credits
