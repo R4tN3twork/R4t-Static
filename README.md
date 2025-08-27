@@ -3,9 +3,12 @@
 
 <a href="https://repl.it/github/binary-person/womginx"><img src="https://docs.replit.com/images/repls/run-on-replit.svg" alt="Replit" width="150"/></a>
 
+### Deployment
 
+You can deploy this site to many hosting platforms such as:
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/R4tN3twork/R4t)
 [![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/R4tN3twork/R4t)
+
 ## Site compatibility
 
 What works:
