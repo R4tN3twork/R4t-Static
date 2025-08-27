@@ -9,8 +9,12 @@ You can deploy this site to pretty much any dynamic hosting platforms such as:
 
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/R4tN3twork/R4t)
 [![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/R4tN3twork/R4t)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/R4tN3twork/R4t&branch=Main&name=R4t)
+
 
 <b>You cannot deploy this website to any static hosts, such as Netlify, Vercel, Github pages, etc.</b>
+This site is really only confined to dynamic hosts because of womginx. There may be a future version of R4t that you can deploy to static hosts but doesn't contain womginx.
+
 ## Site compatibility
 
 What works:
