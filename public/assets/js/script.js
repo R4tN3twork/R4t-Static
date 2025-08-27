@@ -23,7 +23,7 @@ function changeFavicon(newIconPath) {
 // Example usage:
 // To change the favicon to 'new-icon.png'
 changeFavicon(cloakImages[0]); //sets the cloak image to the r4t logo
-document.title = "R4t";
+document.title = "R4t | Beta";
 //not ai
 function cloak(id) {
   if (id == cloakImages[0]) {
@@ -185,18 +185,6 @@ function fullScreen() {
   }
 }
 function onload() {
-  if (localStorage.getItem("url") == null) {
-    console.log("No saved url");
-  } else {
-    let gameframe = document.getElementById("gameframe");
-    gameframe.innerHTML =
-      "<embed src='" +
-      localStorage.getItem("url") +
-      "' width='100%' height='100%' frameborder='0' allowfullscreen></embed>";
-  }
-  if (localStorage.getItem("panicKey") == null) {
-    saveData("panicKey", "`");
-  }
   if (localStorage.getItem("icon") == cloakImages[0]) {
     cloak(cloakImages[0]);
   } else if (localStorage.getItem("icon") == cloakImages[1]) {
@@ -209,5 +197,17 @@ function onload() {
     cloak(cloakImages[4]);
   } else if (localStorage.getItem("icon") == cloakImages[5]) {
     cloak(cloakImages[5]);
+  }
+  if (localStorage.getItem("url") == null) {
+    console.log("No saved url");
+  } else {
+    let gameframe = document.getElementById("gameframe");
+    gameframe.innerHTML =
+      "<embed src='" +
+      localStorage.getItem("url") +
+      "' width='100%' height='100%' frameborder='0' allowfullscreen></embed>";
+  }
+  if (localStorage.getItem("panicKey") == null) {
+    saveData("panicKey", "`");
   }
 }
