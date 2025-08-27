@@ -6,6 +6,6 @@ button {
   background-color: rgb(0, 0, 0);
   color: rgb(160, 160, 160);
   border-radius: 15%;
-  border: 10000px;
+  border: 1px;
   border-color: rgb(0, 0, 100);
 }
