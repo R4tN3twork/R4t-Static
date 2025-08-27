@@ -1,7 +1,7 @@
 # R4t
 ### A proxy site
 
-<a href="https://repl.it/github/binary-person/womginx"><img src="https://docs.replit.com/images/repls/run-on-replit.svg" alt="Replit" width="150"/></a>
+R4t is a website with a collection of games and web proxies. It was created so that people could browse the internet freely at school and play games. It contains the R4t proxy(uses embeds), womginx, and highly customizable settings.
 
 ### Deployment
 
